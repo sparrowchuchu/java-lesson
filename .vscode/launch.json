@@ -1,0 +1,203 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch CH4_13_1",
+      "request": "launch",
+      "mainClass": "lesson4.CH4_13_1",
+      "projectName": "JavaLesson_a3e665fb"
+    },
+    {
+      "type": "java",
+      "name": "Launch CH4_13",
+      "request": "launch",
+      "mainClass": "lesson4.CH4_13",
+      "projectName": "JavaLesson_a3e665fb"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ch4_10_3",
+      "request": "launch",
+      "mainClass": "lesson4.Ch4_10_3",
+      "projectName": "JavaLesson_a3e665fb"
+    },
+    {
+      "type": "java",
+      "name": "Launch CH4_11",
+      "request": "launch",
+      "mainClass": "lesson4.CH4_11",
+      "projectName": "JavaLesson_a3e665fb"
+    },
+    {
+      "type": "java",
+      "name": "Launch CH4_10_1",
+      "request": "launch",
+      "mainClass": "lesson4.CH4_10_1",
+      "projectName": "JavaLesson_a3e665fb"
+    },
+    {
+      "type": "java",
+      "name": "Launch CH4_10",
+      "request": "launch",
+      "mainClass": "lesson4.CH4_10",
+      "projectName": "JavaLesson_a3e665fb"
+    },
+    {
+      "type": "java",
+      "name": "Launch CH4_9",
+      "request": "launch",
+      "mainClass": "lesson4.CH4_9",
+      "projectName": "JavaLesson_a3e665fb"
+    },
+    {
+      "type": "java",
+      "name": "Launch CH4_8",
+      "request": "launch",
+      "mainClass": "lesson4.CH4_8",
+      "projectName": "JavaLesson_a3e665fb"
+    },
+    {
+      "type": "java",
+      "name": "Launch CH4_7",
+      "request": "launch",
+      "mainClass": "lesson4.CH4_7",
+      "projectName": "JavaLesson_a3e665fb"
+    },
+    {
+      "type": "java",
+      "name": "Launch CH4_6",
+      "request": "launch",
+      "mainClass": "lesson4.CH4_6",
+      "projectName": "JavaLesson_a3e665fb"
+    },
+    {
+      "type": "java",
+      "name": "Launch CH4_5",
+      "request": "launch",
+      "mainClass": "lesson4.CH4_5",
+      "projectName": "JavaLesson_a3e665fb"
+    },
+    {
+      "type": "java",
+      "name": "Launch CH4_4",
+      "request": "launch",
+      "mainClass": "lesson4.CH4_4",
+      "projectName": "JavaLesson_a3e665fb"
+    },
+    {
+      "type": "java",
+      "name": "Launch CH3_1",
+      "request": "launch",
+      "mainClass": "lesson3.CH3_1",
+      "projectName": "JavaLesson_a3e665fb"
+    },
+    {
+      "type": "java",
+      "name": "Launch CH3_2",
+      "request": "launch",
+      "mainClass": "lesson3.CH3_2",
+      "projectName": "JavaLesson_a3e665fb"
+    },
+    {
+      "type": "java",
+      "name": "Launch CtoF",
+      "request": "launch",
+      "mainClass": "DM1047.CtoF",
+      "projectName": "JavaLesson_a3e665fb"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ticket",
+      "request": "launch",
+      "mainClass": "lesson4.Ticket",
+      "projectName": "JavaLesson_a3e665fb"
+    },
+    {
+      "type": "java",
+      "name": "Launch Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Launch App",
+      "request": "launch",
+      "mainClass": "App",
+      "projectName": "JavaLesson_a3e665fb"
+    },
+    {
+      "type": "java",
+      "name": "Launch Bmi",
+      "request": "launch",
+      "mainClass": "lesson2.Bmi",
+      "projectName": "JavaLesson_a3e665fb"
+    },
+    {
+      "type": "java",
+      "name": "Launch CH2_1",
+      "request": "launch",
+      "mainClass": "lesson2.CH2_1",
+      "projectName": "JavaLesson_a3e665fb"
+    },
+    {
+      "type": "java",
+      "name": "Launch CH2_2",
+      "request": "launch",
+      "mainClass": "lesson2.CH2_2",
+      "projectName": "JavaLesson_a3e665fb"
+    },
+    {
+      "type": "java",
+      "name": "Launch CH2_3",
+      "request": "launch",
+      "mainClass": "lesson2.CH2_3",
+      "projectName": "JavaLesson_a3e665fb"
+    },
+    {
+      "type": "java",
+      "name": "Launch CH2_4",
+      "request": "launch",
+      "mainClass": "lesson2.CH2_4",
+      "projectName": "JavaLesson_a3e665fb"
+    },
+    {
+      "type": "java",
+      "name": "Launch CH2_5",
+      "request": "launch",
+      "mainClass": "lesson2.CH2_5",
+      "projectName": "JavaLesson_a3e665fb"
+    },
+    {
+      "type": "java",
+      "name": "Launch CH2_6",
+      "request": "launch",
+      "mainClass": "lesson2.CH2_6",
+      "projectName": "JavaLesson_a3e665fb"
+    },
+    {
+      "type": "java",
+      "name": "Launch CH2_7",
+      "request": "launch",
+      "mainClass": "lesson2.CH2_7",
+      "projectName": "JavaLesson_a3e665fb"
+    },
+    {
+      "type": "java",
+      "name": "Launch CH2_8",
+      "request": "launch",
+      "mainClass": "lesson2.CH2_8",
+      "projectName": "JavaLesson_a3e665fb"
+    },
+    {
+      "type": "java",
+      "name": "Launch TaxiPay",
+      "request": "launch",
+      "mainClass": "lesson2.TaxiPay",
+      "projectName": "JavaLesson_a3e665fb"
+    }
+  ]
+}
