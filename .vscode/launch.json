@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch PrimeCheck",
+      "request": "launch",
+      "mainClass": "lesson4.PrimeCheck",
+      "projectName": "JavaLesson_a3e665fb"
+    },
+    {
+      "type": "java",
       "name": "Launch CH4_13_1",
       "request": "launch",
       "mainClass": "lesson4.CH4_13_1",
