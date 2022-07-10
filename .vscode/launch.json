@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch CH5_2",
+      "request": "launch",
+      "mainClass": "lesson5.CH5_2",
+      "projectName": "JavaLesson_a3e665fb"
+    },
+    {
+      "type": "java",
+      "name": "Launch CH5_1",
+      "request": "launch",
+      "mainClass": "lesson5.CH5_1",
+      "projectName": "JavaLesson_a3e665fb"
+    },
+    {
+      "type": "java",
       "name": "Launch GuessGame",
       "request": "launch",
       "mainClass": "lesson4.GuessGame",

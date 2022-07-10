@@ -1,6 +1,12 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        for (int i = 0; i < args.length; i++) {
+            // args 可接收外部傳入參數
+            System.out.println(args);
+            // System.out.println(args[0]);
+            System.out.printf("Hello, %s!\n", args[i]);
+        }
+
         System.out.println("Sharon");
         System.out.println("160");
         System.out.println("40");
