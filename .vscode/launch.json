@@ -6,6 +6,55 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch TwoDimensionalArray",
+      "request": "launch",
+      "mainClass": "DM1047.TwoDimensionalArray",
+      "projectName": "JavaLesson_a3e665fb"
+    },
+    {
+      "type": "java",
+      "name": "Launch BubbleSort",
+      "request": "launch",
+      "mainClass": "DM1047.BubbleSort",
+      "projectName": "JavaLesson_a3e665fb"
+    },
+    {
+      "type": "java",
+      "name": "Launch MaxMin",
+      "request": "launch",
+      "mainClass": "DM1047.MaxMin",
+      "projectName": "JavaLesson_a3e665fb"
+    },
+    {
+      "type": "java",
+      "name": "Launch SunziSuanjing",
+      "request": "launch",
+      "mainClass": "DM1047.SunziSuanjing",
+      "projectName": "JavaLesson_a3e665fb"
+    },
+    {
+      "type": "java",
+      "name": "Launch Leibniz",
+      "request": "launch",
+      "mainClass": "DM1047.Leibniz",
+      "projectName": "JavaLesson_a3e665fb"
+    },
+    {
+      "type": "java",
+      "name": "Launch Prime",
+      "request": "launch",
+      "mainClass": "DM1047.Prime",
+      "projectName": "JavaLesson_a3e665fb"
+    },
+    {
+      "type": "java",
+      "name": "Launch LoopLabel",
+      "request": "launch",
+      "mainClass": "DM1047.LoopLabel",
+      "projectName": "JavaLesson_a3e665fb"
+    },
+    {
+      "type": "java",
       "name": "Launch CH5_2",
       "request": "launch",
       "mainClass": "lesson5.CH5_2",
