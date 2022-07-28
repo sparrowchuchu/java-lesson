@@ -6,6 +6,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch String",
+      "request": "launch",
+      "mainClass": "go.String",
+      "projectName": "JavaLesson_a3e665fb"
+    },
+    {
+      "type": "java",
+      "name": "Launch Split",
+      "request": "launch",
+      "mainClass": "DM1047.Split",
+      "projectName": "JavaLesson_a3e665fb"
+    },
+    {
+      "type": "java",
+      "name": "Launch Lottery",
+      "request": "launch",
+      "mainClass": "DM1047.Lottery",
+      "projectName": "JavaLesson_a3e665fb"
+    },
+    {
+      "type": "java",
+      "name": "Launch Bank",
+      "request": "launch",
+      "mainClass": "DM1047.Bank",
+      "projectName": "JavaLesson_a3e665fb"
+    },
+    {
+      "type": "java",
       "name": "Launch TwoDimensionalArray",
       "request": "launch",
       "mainClass": "DM1047.TwoDimensionalArray",
