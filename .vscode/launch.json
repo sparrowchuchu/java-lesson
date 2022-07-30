@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch Ch7_8",
+      "request": "launch",
+      "mainClass": "lesson7.Ch7_8",
+      "projectName": "JavaLesson_a3e665fb"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ch8_1",
+      "request": "launch",
+      "mainClass": "lesson8.Ch8_1",
+      "projectName": "JavaLesson_a3e665fb"
+    },
+    {
+      "type": "java",
       "name": "Launch String",
       "request": "launch",
       "mainClass": "go.String",
