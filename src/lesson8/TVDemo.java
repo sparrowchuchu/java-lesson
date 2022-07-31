@@ -7,9 +7,9 @@ public class TVDemo {
         TV tv3 = new TV();
 
         System.out.println(tv1);
-        System.out.println(tv1.power);
+        System.out.println(tv1.getPower());
         tv1.turnOn();
-        System.out.println(tv1.power);
+        System.out.println(tv1.getPower());
 
         System.out.println("=tv1=  " + tv1.getInfo());
         tv1.channelDown();

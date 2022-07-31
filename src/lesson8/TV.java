@@ -6,15 +6,18 @@ public class TV {
     final int MAX_VOLUME = 10;
 
     // 屬性區
-    int channel;
-    int volume;
-    boolean power;
+    private int channel;
+    private int volume;
+    private boolean power;
     String brand;
+    public String setBrand;
+    private static int count;
 
     public TV() {
-        this.channel = 1;
-        this.volume = 1;
-        this.brand = "Sony";
+        channel = 1;
+        volume = 1;
+        brand = "Sony";
+        count++;
     }
 
     public TV(int channel, int volume) {
@@ -24,14 +27,31 @@ public class TV {
         setVolume(volume);
     }
 
+    public boolean getPower() {
+        return power;
+    }
+
     public void turnOn() {
-        System.out.println("電視開機中");
-        this.power = true;
+        System.out.println("電視開機中...");
+        power = true;
     }
 
     public void turnOff() {
-        System.out.println("電視關機中");
-        this.power = false;
+        System.out.println("電視關機中...");
+        power = false;
+    }
+
+    public boolean isOff() {
+        if (!power) {
+            System.out.println("電視未開機!");
+            return true;
+        }
+        return false;
+    }
+
+    // 類別唯一的方法
+    public static int getCounter() {
+        return count;
     }
 
     public void setBrand(String brand) {
@@ -39,7 +59,7 @@ public class TV {
     }
 
     public void setChannel(int channel) {
-        if (power && channel > 0 && channel <= this.MAX_CHANNEL) {
+        if (!isOff() && channel > 0 && channel <= this.MAX_CHANNEL) {
             this.channel = channel;
         } else {
             System.out.println("輸入超出頻道範圍");
@@ -47,7 +67,7 @@ public class TV {
     }
 
     public void channelUp() {
-        if (power && this.channel < this.MAX_CHANNEL) {
+        if (!isOff() && this.channel < this.MAX_CHANNEL) {
             this.channel++;
         } else {
             System.out.println("已到頻道上限。");
@@ -55,7 +75,7 @@ public class TV {
     }
 
     public void channelDown() {
-        if (power && this.channel > 1) {
+        if (!isOff() && this.channel > 1) {
             this.channel--;
         } else {
             System.out.println("已到頻道下限。");
@@ -63,7 +83,7 @@ public class TV {
     }
 
     public void setVolume(int volume) {
-        if (power && volume > 1 && volume <= this.MAX_VOLUME) {
+        if (!isOff() && volume > 1 && volume <= this.MAX_VOLUME) {
             this.volume = volume;
         } else {
             System.out.println("輸入超出音量範圍");
@@ -71,7 +91,7 @@ public class TV {
     }
 
     public void volumeUp() {
-        if (power && this.volume < this.MAX_VOLUME) {
+        if (!isOff() && this.volume < this.MAX_VOLUME) {
             this.volume++;
         } else {
             System.out.println("已到音量上限。");
@@ -79,7 +99,7 @@ public class TV {
     }
 
     public void volumeDown() {
-        if (power && this.volume > 1) {
+        if (!isOff() && this.volume > 1) {
             this.volume--;
         } else {
             System.out.println("已到音量下限。");

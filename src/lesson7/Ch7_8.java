@@ -7,5 +7,8 @@ public class Ch7_8 {
         Circle c1 = new Circle();
 
         System.out.println(c1.getArea());
+
+        TV tv = new TV();
+        tv.setBrand = "小米";
     }
 }
