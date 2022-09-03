@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch ATM1",
+      "request": "launch",
+      "mainClass": "lesson8.ATM1",
+      "projectName": "JavaLesson_a3e665fb"
+    },
+    {
+      "type": "java",
+      "name": "Launch Zoo",
+      "request": "launch",
+      "mainClass": "lesson9.Zoo",
+      "projectName": "JavaLesson_a3e665fb"
+    },
+    {
+      "type": "java",
       "name": "Launch TVDemo2",
       "request": "launch",
       "mainClass": "lesson8.TVDemo2",
